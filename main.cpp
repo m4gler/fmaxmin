@@ -35,8 +35,12 @@ std::vector<double> wspolczynniki(double a, double b, double c) {
 int main() {
     double a, b, c;
 
-    cout << "Podaj wspolczynniki: ";
-    cin >> a >> b >> c;
+    cout << "Podaj współczynnik a: ";
+    cin >> a;
+    cout << "Podaj współczynnik b: ";
+    cin >> b;
+    cout << "Podaj współczynnik c: ";
+    cin >> c;
 
     std::vector<double> wyniki = wspolczynniki(a, b, c);
 
